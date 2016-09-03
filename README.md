@@ -5,7 +5,7 @@ Dockerfile for a base nodejs image with nvm
 Sample Dockerfile for your project
 
 ```
-FROM gauravarora/docker-node
+FROM gauravarora/docker-node:6.5.0
 
 MAINTAINER "Gaurav Arora <gaurav@custvantage.com>"
 
