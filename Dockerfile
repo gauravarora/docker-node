@@ -18,8 +18,8 @@ RUN apt-get update && apt-get install -y -q --no-install-recommends \
 
 # set env vars
 ENV NVM_DIR /usr/local/nvm
-ENV NODE_VERSION 6.9.1
-ENV NVM_VERSION v0.32.0
+ENV NODE_VERSION 6.9.5
+ENV NVM_VERSION v0.33.0
 
 # Install nvm with node and npm
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/$NVM_VERSION/install.sh | bash \
